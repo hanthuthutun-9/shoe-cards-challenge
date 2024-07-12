@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #caf0f8;
+}
+
+/* Styling card */
+.card-container {
+  width: 600px;
+  margin: 150px auto;
+}
+
+.card {
+  border: 1px solid #cbdcee;
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px #979dac;
+}
+
+/* Card content */
+.card-content {
+  display: inline-block;
+  width: 65%;
+  /* margin-right: 70px; */
+  padding: 15px 0 20px 20px;
+}
+
+/* Image Styling */
+
+.image {
+  display: inline-block;
+  width: 20%;
+}
+
+img {
+  width: 150px;
+}
+
+p {
+  margin-bottom: 25px;
+ 
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.card1 h2{
+  color: #ae2012;
+}
+
+.card2 h2 {
+  color: #003566;
+}
+
+.card3 h2 {
+  color: #000814;
+}
+
+/* Button Styling */
+
+button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #ae2012;
+  color: #f4f4f4;
+  border: none;
+  cursor: pointer;
+}
+
+.card2 button {
+  background-color: #003566;
+}
+
+.card3 button {
+  background-color: #000814;
+}
+
+/* Button hover stage */
+button:hover {
+  background-color: #ae1f12e5;
+}
+.card2 button:hover {
+  background-color: #003566e8;
+}
+.card3 button:hover {
+  background-color: #000814dd;
+}
+
+
